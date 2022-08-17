@@ -1,0 +1,71 @@
+body {
+  scroll-behavior: smooth;
+}
+
+.title {
+  font-size: 52px;
+}
+
+form {
+  padding: 10px 40px;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: #dc3545;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1) inset, 0 0 5px #dc3545;
+  outline: 0 none;
+}
+
+label {
+  font-weight: 600;
+  color: #555;
+}
+
+table th,
+table td {
+  padding: 10px;
+}
+
+table th {
+  color: #bb2b3a;
+}
+
+table td {
+  text-align: center;
+}
+
+.btn {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+input[type="text"]:invalid ~ .alert {
+  display: block;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(255, 249, 249);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #dc3545;
+}
